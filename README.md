@@ -36,6 +36,8 @@ We write a small description of what's in each file here.
 * **README.md** This file! It describes the project.
 * **acquire_data.py** This should download or explain how to obtain data
 for the project, storing it in the raw/ directory.
+* **.env** Not committed. Store environment variables/secrets
+ that you don't want to share here.
 * **requirements.txt** Can contain a list of packages to install with
 conda or pip.
     * Can generate with e.g. `pip freeze > requirements.txt` or `conda

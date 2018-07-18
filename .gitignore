@@ -1,0 +1,4 @@
+# OSX
+.DS_Store
+# This file often holds secrets like API keys, we don't want to commit it.
+.env
