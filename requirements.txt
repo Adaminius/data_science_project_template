@@ -1,0 +1,2 @@
+# can generate with e.g. `pip freeze > requirements.txt` or `conda list --export > requirements.txt`
+# then install packages with `pip install -r requirements.txt` or create conda environment with `conda create -n MY_ENV_NAME --file requirements.txt`
