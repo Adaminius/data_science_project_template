@@ -4,7 +4,7 @@ import argparse
 try:
     from urllib.request import urlretrieve
 except ImportError:  # python2
-    from urllib2 import urlretrieve
+    from urllib import urlretrieve
 
 
 def parse_args(argv):
