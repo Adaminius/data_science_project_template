@@ -45,6 +45,8 @@ conda or pip.
     * Then install packages with `pip install -r requirements.txt`
     or create conda environment with `conda create -n MY_ENV_NAME --file
      requirements.txt`
+* **scripts/template.sh** Demonstrates how to use load variables from
+.env file
 * **raw/** This directory is where we keep our raw data.
     * We shouldn't change this data, only add to it.
     * We don't necessarily keep this data under version control
@@ -56,6 +58,7 @@ least described in comments there.
 * **notebooks/** Jupyter or other kinds of notebook-style files for
 data exploration go here.
 * **reports/** Polished figures, reports, and analyses go here.
+* **scripts/** Bash, python, etc. scripts for building data
 
 ## Log
 
