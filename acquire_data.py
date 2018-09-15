@@ -20,7 +20,7 @@ def main():
 
     # Creates a .env file if you don't have one and adds the PROJ_BASE
     # variable containing the project's root directory to it.
-    if not os.path.exists('.env'):
+    if not os.path.exists('.env', 'w'):
         project_base = os.getcwd()
         with open('.env') as file_handle:
             file_handle.write('PROJ_BASE={}'.format(project_base))
